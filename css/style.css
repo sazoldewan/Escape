@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 60px 55px;
+}
+
+/*header start*/
+
+header{
+	background-image: url(../images/city.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 35px;
+	overflow: hidden;
+}
+.logo img{
+	width: 25%;
+	float: left;
+}
+.logo p{
+	width: 65%;
+	float: right;
+	color: white;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: block;
+	text-decoration:none;
+	font-size: 18px;
+	padding: 35px 23px;
+	color: #fff;
+	transition: .5s;
+}
+.meny ul li:last-child a{
+	padding-right: 0;
+}
+.meny ul li:hover a{
+	color: #black; 
+}
+.banner{
+	width: 55%;
+	margin: 80px auto;
+}
+.banner h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	color: #ffff;
+	margin-left: 80px;
+}
+.banner h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 62px;
+	color: #fff;
+}
+.banner button{
+	border: none;
+	background: transparent;
+	outline: none;
+	border: 2px solid white;
+	padding: 15px 30px;
+	margin: 45px auto;
+	margin-left: 315px;
+	color: #fff;
+}
+/*header end*/
+
+.web_development{
+	background-color: #fff;
+}
+.container2{
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 60px;
+	overflow: hidden;
+}
+/*web development start*/
+.description{
+	width: 71%;
+	float: left;
+}
+.description h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #777777;
+	margin-bottom: 30px;
+}
+.description h1 span{
+	font-weight: 700;
+}
+.description p{
+	font-weight: 400;
+	font-size: 12px;
+	color: #777777;
+}
+#p1{
+	margin-bottom: 20px;
+}
+
+.web_icon{
+	width: 20%;
+	float: right;
+}
+.web_icon img{
+	padding-top: 30px;
+	width: 100%;
+}
+
+/*web development end*/
+/*branding start*/
+.branding{
+	background-color: #fff;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.description1{
+	width: 70%;
+	float: right;
+}
+.description1 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #777777;
+	margin-bottom: 30px;
+}
+.description1 h1 span{
+	font-weight: 700;
+}
+.description1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #777777;
+	font-size: 12px;
+}
+
+#p2{
+	margin-bottom: 20px;	
+}
+.user_icon{
+	width: 25%;
+	float: left;
+}
+.user_icon img{
+	padding-top: 30px;
+	width: 100%;
+}
+/*branding end*/
+
+/*service start*/
+.service{;
+}
+.single{
+	width: 48%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.icons{
+	width: 18%;
+	float: left;
+	margin-right: 10px;
+}
+.icons img{
+	width: 100%
+}
+.content{
+	width: 65%;
+	margin-top: 5px;
+	float: left;
+}
+.content h2{
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	margin-bottom: 0;
+}
+.content p{
+	font-weight: 300;
+	font-size: 13px;
+	color: #777777;
+	margin: 0 0;
+}
+/*service end*/
+/*client1 start*/
+
+.details{
+	width: 70%;
+	float: right;
+	margin-top: 20px;
+}
+.heading{
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-left: 200px;
+
+}
+.heading h1{
+	font-weight: 400;
+	font-size: 50px;
+	color: black;
+}
+.heading h1 span{
+	font-weight: 700;
+}
+.details p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #777777;
+	font-size: 13px;
+}
+
+.client1_icon{
+	width: 15%;
+	float: left;
+}
+.client1_icon img{
+	width: 100%;
+}
+/*client1 end*/
+/*client2 start*/
+
+.details1{
+	width: 70%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 0;
+}
+
+.details1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #777777;
+	font-size: 13px;
+}
+
+.client2_icon{
+	width: 15%;
+	float: right;
+	margin-left: 100px;
+}
+.client2_icon img{
+	width: 100%;
+}
+/*client1 end*/
